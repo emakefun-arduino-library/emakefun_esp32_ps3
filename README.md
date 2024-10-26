@@ -51,7 +51,7 @@ You can initialize the library using `Ps3.begin(mac)`, passing a string with the
 
 void setup()
 {
-    Ps3.begin("01:02:03:04:05:06");
+    Ps3.begin("20:00:00:00:20:20");
 }
 ```
 

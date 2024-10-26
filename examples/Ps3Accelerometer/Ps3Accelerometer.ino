@@ -21,7 +21,7 @@ void setup()
 {
     Serial.begin(115200);
     Ps3.attach(notify);
-    Ps3.begin("01:02:03:04:05:06");
+    Ps3.begin("20:00:00:00:20:20");
 }
 
 

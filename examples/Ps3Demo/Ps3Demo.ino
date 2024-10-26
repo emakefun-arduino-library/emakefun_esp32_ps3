@@ -200,7 +200,7 @@ void setup()
 
     Ps3.attach(notify);
     Ps3.attachOnConnect(onConnect);
-    Ps3.begin("01:02:03:04:05:06");
+    Ps3.begin("20:00:00:00:20:20");
 
     Serial.println("Ready.");
 }
